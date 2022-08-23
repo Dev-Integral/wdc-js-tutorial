@@ -78,4 +78,6 @@ const userProfile = {
 //     full name, contact address, parent's phone number, age,  
 //  4. Fork the repository and update the folder /drill-1 with a js file of the solution in your name.
 //  5. Open a pull request.
+    
+// Link to repo: https://github.com/Dev-Integral/wdc-js-tutorial
 
