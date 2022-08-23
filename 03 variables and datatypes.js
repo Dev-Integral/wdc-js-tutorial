@@ -8,6 +8,10 @@ var c;
            double quotes and back ticks.
   Examples - 
 */
+const x = '4';
+const y = 4;
+
+console.log(x, y);
 a = '01 - This variable is assigned to a stirng with single quote';
 const b = "02 - This variable is assigned to a stirng with double quote";
 c = `03 - This variable is assigned to a back tick`;
@@ -40,13 +44,14 @@ let h = 'null'; // This is a string.
 */
 
 let i = undefined;
-j
+// j
 
 /* 
   ARRAYS: A collection of different datatypes or the same datatypes stored in 
           a single variable is called an Array. Usually initiated with square brackets
   Examples - 
 */
+
 const arrayExample = []; // This is an empty array or list.
 const mathematical_set = ["ruler", 'pencil', `sharpener`, 'erase']; // All elements have the same datatype
 const setOfNumbers = [0, -30, 43.4, 50]; // All elements are the same datatype
@@ -69,6 +74,7 @@ const userProfile = {
     favorite_foods: ['Iyan ati egusi', 'Amala, Gbegiri ati ewedu'],
     fullName: { first_name: 'Taiwo', lastName: 'Ayoola' }
 };
+console.table({userProfile})
 
 // DRILL
 //  1. Research how to know the datatype of a variable in Javascript
